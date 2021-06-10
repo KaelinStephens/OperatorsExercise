@@ -10,7 +10,7 @@ namespace Operators_Exercise
             int b = 4;
             int quotient = a / b;
             int remainder = a % b;
-            Console.WriteLine("(a)/(b) is (quotient) remainder (remainder)");
+            Console.WriteLine("{0}/{1} is {2} remainder {3}", a, b, quotient, remainder);
         }
     }
 }
